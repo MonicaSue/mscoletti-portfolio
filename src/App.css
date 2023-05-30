@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body,
+.root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin-top: 40px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #474962;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}

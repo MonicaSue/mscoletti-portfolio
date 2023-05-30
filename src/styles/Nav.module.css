@@ -1,0 +1,15 @@
+.navContainer {
+  background-color: rgb(193, 148, 148);
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+}
+
+.navContainer > ul {
+  list-style: none;
+}
+
+.navContainer > ul > li {
+  display: inline-block;
+}
