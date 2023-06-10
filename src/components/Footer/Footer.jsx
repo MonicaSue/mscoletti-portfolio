@@ -11,15 +11,20 @@ import styles from '../../styles/Footer.module.css'
 const Footer = () => {
   return (
     <div className={`${styles.footer}`}>
-      <a href="https://www.linkedin.com/in/monica-maldonado/" target='_blank' rel='noreferrer'>
-        <img src={LinkedInIcon} alt="LinkedIn Icon" height='34px' />
-      </a>
-      <a href="https://github.com/MonicaSue" target='_blank' rel='noreferrer'>
-        <img src={GitHubIcon} alt="Github Icon" height='34px' />
-      </a>
-      <a href="mailto:monica.scoletti@gmail.com" target='_blank' rel='noreferrer'>
-        <img src={EmailIcon} alt="Email Icon" height='34px' />
-      </a>
+      <div className={`${styles.icons}`}>
+        <a href="https://www.linkedin.com/in/monica-maldonado/" target='_blank' rel='noreferrer'>
+          <img src={LinkedInIcon} alt="LinkedIn Icon" height='34px' />
+        </a>
+        <a href="https://github.com/MonicaSue" target='_blank' rel='noreferrer'>
+          <img src={GitHubIcon} alt="Github Icon" height='34px' />
+        </a>
+        <a href="mailto:monica.scoletti@gmail.com" target='_blank' rel='noreferrer'>
+          <img src={EmailIcon} alt="Email Icon" height='34px' />
+        </a>
+      </div>
+      <div className={`${styles.copy}`}>
+        <p>MONICA SCOLETTI <span>©2023</span></p>
+      </div>
     </div>
   )
 }
