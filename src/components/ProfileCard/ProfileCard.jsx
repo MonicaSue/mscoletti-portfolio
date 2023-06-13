@@ -34,7 +34,7 @@ const ProfileCard = () => {
           </a>
         </div>
         <div className={styles.icon}>
-          <a href="" target='_blank' rel='noreferrer'>
+          <a href="https://www.linkedin.com/in/monica-scoletti/" target='_blank' rel='noreferrer'>
             <img className={styles.iconImg} src={resume} alt="resume" />
           </a>
         </div>
