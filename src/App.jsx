@@ -1,11 +1,14 @@
 // modules
 
 // components
+import ProfileCard from './components/ProfileCard/ProfileCard';
+import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 
 // sections
+import Home from './sections/Home';
 import About from './sections/About';
-import Contact from './sections/Contact';
+import Experiences from './sections/Experiences';
 import Projects from './sections/Projects';
 
 
@@ -15,10 +18,17 @@ import './App.css';
 function App() {
   return (
     <>
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className='profileSideBar'>
+        <ProfileCard />
+      </div>
+      <Nav/>
+      <div id='main'>
+        <Home />
+        <Projects />
+        <About />
+        <Experiences />
+        <Footer />
+      </div>
     </>  
   );
 }

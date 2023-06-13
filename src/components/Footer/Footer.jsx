@@ -11,7 +11,7 @@ import styles from '../../styles/Footer.module.css'
 const Footer = () => {
   return (
     <div className={`${styles.footer}`}>
-      <div className={`${styles.icons}`}>
+      {/* <div className={`${styles.icons}`}>
         <a href="https://www.linkedin.com/in/monica-maldonado/" target='_blank' rel='noreferrer'>
           <img src={LinkedInIcon} alt="LinkedIn Icon" height='34px' />
         </a>
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className={`${styles.copy}`}>
         <p>MONICA SCOLETTI <span>©2023</span></p>
-      </div>
+      </div> */}
     </div>
   )
 }

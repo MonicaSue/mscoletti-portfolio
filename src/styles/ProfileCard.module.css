@@ -1,0 +1,131 @@
+.profileCardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.leftHeader {
+  margin: 0;
+}
+
+.rightHeader {
+  text-align: right;
+  margin: 0;
+}
+
+.picContainer {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  /* display: inline-block;
+  transition: 0.5s ease; */
+
+}
+
+.picMain {
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.picHover {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  opacity: 0;
+  visibility: none;
+  transition: 0.3s ease;
+  height: 250px;
+  width: 250px;
+}
+
+.picHover:hover {
+  opacity: 1;
+}
+
+.email {
+  margin-bottom: 8px;
+}
+
+.address {
+  margin-bottom: 30px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.icon {
+  margin: 15px 0;
+}
+
+.email, .address {
+  text-align: center;
+}
+
+
+.button {
+  background-color: #ad6a75;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 70px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+
+@media screen and (min-width: 2000px) {
+  .profileCardHeader {
+    margin-bottom: 65px;
+  }
+
+  .picContainer {
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+  }
+
+  .picMain {
+    height: 350px;
+    width: 350px;
+  }
+
+  .picHover {
+    display: flex;
+    justify-content: center;
+    /* left: 50px; */
+    height: 350px;
+    width: 350px;
+  }
+
+  .email {
+    margin-bottom: 8px;
+  } 
+  
+  .address {
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    margin-bottom: 118px;
+  }
+
+  .emailButton {
+    display: flex;
+    justify-content: center;
+  }
+
+}

@@ -1,4 +1,22 @@
-.filterContainer {
+.projects {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin-left: 330px;
+}
+
+.content {
+  max-width: 770px;
+  width: 100%;
+  margin-left: auto;
+}
+
+/* .filterContainer {
   display: flex;
   justify-content: center;
   
@@ -8,17 +26,19 @@
   font-size: 14px;
   margin: 0 25px;
   padding: 0 20px;
-}
+} */
 
 
 .projectCardContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1vmin;
+  gap: 20px;
   justify-items: center;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
+  max-width: 770px;
+  width: 100%;
 }
 
 .projectCard {
@@ -27,10 +47,10 @@
 }
 
 .projectImg {
-  width: 300px;
-  height: 300px;
+  width: 407px;
+  height: 210px;
   margin: 0;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .overlay {
@@ -47,9 +67,10 @@
   opacity: 0;
   visibility: none;
   transition: 0.3s ease;
-  background-color: #121f2bbb;
+  background-color: #0f1011f3;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .overlay:hover {
@@ -63,11 +84,31 @@
   text-decoration: none;
 }
 
+h3 {
+  margin-top: 0;
+}
+
+
 .links {
   display: flex;
   flex-direction: row;
+  gap: 70px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .description {
+  text-align: center;
+  margin-bottom: 15px;
+}
 
+.iconContainter {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1360px) {
+  .projectCardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
