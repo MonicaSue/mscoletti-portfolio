@@ -91,7 +91,7 @@
   }
 
   .picContainer {
-    margin-bottom: 56px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     height: 350px;
@@ -113,19 +113,31 @@
 
   .email {
     margin-bottom: 8px;
+    font-size: 24px;
   } 
   
   .address {
     margin-bottom: 30px;
+    font-size: 24px;
   }
 
   .icon {
-    margin-bottom: 118px;
+    margin-bottom: 80px;
+  }
+
+  .iconImg {
+    height: 25px;
   }
 
   .emailButton {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 20px 80px;
+    border-radius: 100px;
   }
 
 }

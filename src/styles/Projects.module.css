@@ -16,18 +16,6 @@
   margin-left: auto;
 }
 
-/* .filterContainer {
-  display: flex;
-  justify-content: center;
-  
-}
-
-.filter {
-  font-size: 14px;
-  margin: 0 25px;
-  padding: 0 20px;
-} */
-
 
 .projectCardContainer {
   display: grid;
@@ -48,7 +36,7 @@
 
 .projectImg {
   width: 407px;
-  height: 210px;
+  height: 250px;
   margin: 0;
   border-radius: 10px;
 }

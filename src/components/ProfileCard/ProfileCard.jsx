@@ -25,28 +25,23 @@ const ProfileCard = () => {
       <div className={styles.iconContainer}>
         <div className={styles.icon}>
             <a href="https://github.com/MonicaSue" target='_blank' rel='noreferrer'>
-              <img src={gitHub} alt="github" />
+              <img className={styles.iconImg} src={gitHub} alt="github" />
             </a>
           </div>
         <div className={styles.icon}>
           <a href="https://www.linkedin.com/in/monica-scoletti/" target='_blank' rel='noreferrer'>
-            <img src={linkedIn} alt="linkedin" />
+            <img className={styles.iconImg} src={linkedIn} alt="linkedin" />
           </a>
         </div>
-        {/* <div className={styles.icon}>
-          <a href="https://www.instagram.com/msmonicasue/" target='_blank' rel='noreferrer'>
-            <img src={instagram} alt="instagram" />
-          </a>
-        </div> */}
         <div className={styles.icon}>
           <a href="" target='_blank' rel='noreferrer'>
-            <img src={resume} alt="resume" />
+            <img className={styles.iconImg} src={resume} alt="resume" />
           </a>
         </div>
       </div>
       <div className={styles.emailButton}>
         <a href="mailto:monica.scoletti@gmail.com">
-          <button className={styles.button}>Get In Touch! </button>
+          <button className={styles.button}><i class="far fa-envelope"></i> Get In Touch! </button>
         </a>
       </div>
     </>

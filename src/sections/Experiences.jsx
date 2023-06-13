@@ -30,13 +30,13 @@ const Experiences = () => {
             </div>
             <div className={styles.item}>
               <span className={styles.date}>Jan 2018 - Jul 2021</span>
-              <h2>FP&A Manager</h2>
+              <h2>FP&A Manager,</h2>
               <h2>Senior Financial Analyst</h2>
               <p>Zeta Global, NY, NY</p>
             </div>
             <div className={styles.item}>
               <span className={styles.date}>Aug 2014 - Jan 2018</span>
-              <h2>Senior Content Support Manager</h2>
+              <h2>Senior Content Support Manager,</h2>
               <h2>Research Analyst</h2>
               <p>Factset Research Systems, NY, NY</p>
             </div>
