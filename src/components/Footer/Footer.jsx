@@ -1,7 +1,7 @@
 // assets
-import GitHubIcon from '../../assets/icons/github.png'
-import LinkedInIcon from '../../assets/icons/linkedin.png'
-import EmailIcon from '../../assets/icons/email.png'
+// import GitHubIcon from '../../assets/icons/github.png'
+// import LinkedInIcon from '../../assets/icons/linkedin.png'
+// import EmailIcon from '../../assets/icons/email.png'
 
 
 
