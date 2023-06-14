@@ -66,6 +66,12 @@ p {
   margin-bottom: 18px;
 }
 
+.resumeLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media screen and (max-width: 1246px) {
   .container {
     max-width: 767px;

@@ -1,5 +1,5 @@
-// assets
-// import arrow from '../assets/icons/rightArrow.png'
+//assets
+import arrow from '../assets/icons/rightArrow1.png'
 
 // componenets
 import SectionHeader from '../components/SectionHeader/SectionHeader'
@@ -15,7 +15,12 @@ const Experiences = () => {
           <div className={styles.header}>
             <SectionHeader header={'RESUME'}/>
             <h1>Education & <span>Experience</span></h1>
-            <p>View Full Resume</p>
+            <a href="./MonicaScoletti-Resume.pdf" download="MonicaScoletti-Resume.pdf">
+              <p className={styles.resumeLink}>
+                View Full Resume 
+                <img src={arrow} alt='arrow'/>
+              </p>
+            </a>
           </div>
           <div className={styles.resumeTimeline}>
             <div className={styles.item}>
