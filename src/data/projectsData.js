@@ -8,8 +8,8 @@ export const projects = [
     title: 'Fleet Solutions', 
     description: 'An app to manage performance and maintenance for fleet inventory', 
     image: FleetSuite, 
-    repositoryLink: 'xyz', 
-    deploymentLink: 'xyz',
+    repositoryLink: 'https://github.com/MonicaSue/fleet-solutions-front-end', 
+    deploymentLink: 'https://fleet-solutions.netlify.app/',
     tech: ['TYPESCRIPT', 'POSTGRES', 'EXPRESS', 'REACT', 'NODE', 'RECHARTS', 'CSS']
   },
   {
