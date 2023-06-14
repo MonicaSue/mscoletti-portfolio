@@ -63,7 +63,7 @@ section {
 
 @media screen and (max-width: 1246px) {
   .profileSideBar {
-    display: box;
+    /* display: box; */
     position: relative;
     max-width: 767px;
     left: 0;
