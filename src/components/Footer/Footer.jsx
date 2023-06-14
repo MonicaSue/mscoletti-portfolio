@@ -10,21 +10,10 @@ import styles from '../../styles/Footer.module.css'
 
 const Footer = () => {
   return (
-    <div className={`${styles.footer}`}>
-      {/* <div className={`${styles.icons}`}>
-        <a href="https://www.linkedin.com/in/monica-maldonado/" target='_blank' rel='noreferrer'>
-          <img src={LinkedInIcon} alt="LinkedIn Icon" height='34px' />
-        </a>
-        <a href="https://github.com/MonicaSue" target='_blank' rel='noreferrer'>
-          <img src={GitHubIcon} alt="Github Icon" height='34px' />
-        </a>
-        <a href="mailto:monica.scoletti@gmail.com" target='_blank' rel='noreferrer'>
-          <img src={EmailIcon} alt="Email Icon" height='34px' />
-        </a>
-      </div>
-      <div className={`${styles.copy}`}>
-        <p>MONICA SCOLETTI <span>©2023</span></p>
-      </div> */}
+    <div className={styles.footer}>
+      <a href="https://themeforest.net/item/drake-personal-portfolio-wordpress-theme/44528296" target='_blank' rel='noreferrer'>
+        <em>Styling inspired by Drake</em>
+      </a>
     </div>
   )
 }
