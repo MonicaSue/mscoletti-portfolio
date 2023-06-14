@@ -7,7 +7,7 @@
 .container {
   max-width: 1130px;
   padding: 0 15px;
-  margin-left: 330px;
+  margin: auto;
 }
 
 .content {
@@ -95,8 +95,32 @@ h3 {
   gap: 15px;
 }
 
-@media screen and (max-width: 1360px) {
+
+@media screen and (max-width: 1246px) {
+  .container {
+    max-width: 767px;
+  }
+  
+  .content {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+
+/* @media screen and (max-width: 1360px) {
   .projectCardContainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+} */
+
+
+@media screen and (max-width: 900px) {
+  .projectCardContainer {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items:flex-start;
+    align-items: center;
+    justify-content: center;
   }
 }

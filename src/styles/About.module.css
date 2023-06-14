@@ -20,3 +20,21 @@
   max-width: 610px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1246px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .content {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .text {
+    max-width: 95%;
+  }
+}

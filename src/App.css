@@ -32,9 +32,10 @@ a:visited {
 
 section {
   align-items: center;
-  display: flex;
+  display: block;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   line-height: 18pt;
   padding: 90px 0 90px 0;
   overflow: hidden;
@@ -57,5 +58,18 @@ section {
 @media screen and (min-width: 2000px) {
   .profileSideBar {
     max-width: 485px;
+  }
+}
+
+@media screen and (max-width: 1246px) {
+  .profileSideBar {
+    display: box;
+    position: relative;
+    max-width: 767px;
+    left: 0;
+    margin: auto;
+    top: 0;
+    transform: translateY(0);
+    margin-top: 20px;
   }
 }

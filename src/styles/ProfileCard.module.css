@@ -16,12 +16,15 @@
 
 .picContainer {
   position: relative;
-  height: 250px;
-  width: 250px;
+  /* height: 250px;
+  width: 250px; */
   border-radius: 20px;
   margin-bottom: 20px;
-  /* display: inline-block;
-  transition: 0.5s ease; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center;
+  align-items: center; */
+  /* transition: 0.5s ease; */
 
 }
 
@@ -29,6 +32,9 @@
   border-radius: 20px;
   height: 250px;
   width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .picHover {
@@ -71,6 +77,11 @@
 
 .email, .address {
   text-align: center;
+}
+
+.emailButton {
+  display: flex;
+  justify-content: center;  
 }
 
 
@@ -129,15 +140,17 @@
     height: 25px;
   }
 
-  .emailButton {
-    display: flex;
-    justify-content: center;  
-  }
 
   .button {
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px 80px;
     border-radius: 100px;
   }
 
+}
+
+@media screen and (max-width: 1246px) {
+  .picMain {
+
+  }
 }
