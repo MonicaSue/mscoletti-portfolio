@@ -37,13 +37,13 @@ const Experiences = () => {
               <span className={styles.date}>Jan 2018 - Jul 2021</span>
               <h2>FP&A Manager,</h2>
               <h2>Senior Financial Analyst</h2>
-              <p>Zeta Global, NY, NY</p>
+              <p>Zeta Global, New York, NY</p>
             </div>
             <div className={styles.item}>
               <span className={styles.date}>Aug 2014 - Jan 2018</span>
               <h2>Senior Content Support Manager,</h2>
               <h2>Research Analyst</h2>
-              <p>Factset Research Systems, NY, NY</p>
+              <p>Factset Research Systems, New York, NY</p>
             </div>
             <div className={styles.item}>
               <span className={styles.date}>Dec 2012 - Aug 2014</span>
@@ -53,7 +53,7 @@ const Experiences = () => {
             <div className={styles.item}>
               <span className={styles.date}>May 2012</span>
               <h2>Bachelor Degree in Finance</h2>
-              <p>Manhattan College, New York, NY</p>
+              <p>Manhattan College, Riverdale, NY</p>
             </div>
           </div>
 
