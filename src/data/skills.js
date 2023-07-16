@@ -8,6 +8,9 @@ export const skills = [
     tech: 'TYPESCRIPT'
   },
   {
+    tech: 'PYTHON'
+  },
+  {
     tech: 'REACT'
   },
   {
