@@ -9,7 +9,6 @@ import MONGODB from '../../assets/icons/mongodb.png'
 import MUI from '../../assets/icons/mui.png'
 import NODE from '../../assets/icons/node.png'
 import POSTGRES from '../../assets/icons/postgres.png'
-import PYTHON from '../../assets/icons/python.png'
 import REACT from '../../assets/icons/react.png'
 import RECHARTS from '../../assets/icons/recharts.png'
 import TYPESCRIPT from '../../assets/icons/typescript.png'
@@ -29,7 +28,6 @@ const iconTable = {
   MUI,
   NODE,
   POSTGRES,
-  PYTHON,
   REACT,
   RECHARTS,
   TYPESCRIPT,
