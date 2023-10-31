@@ -24,6 +24,11 @@ const Experiences = () => {
           </div>
           <div className={styles.resumeTimeline}>
             <div className={styles.item}>
+              <span className={styles.date}>Expected Graduation: Jun 2025</span>
+              <h2>Bachelor Degree in Computer Science</h2>
+              <p>Oregon State University</p>
+            </div>
+            <div className={styles.item}>
               <span className={styles.date}>Mar 2022 - Jun 2023</span>
               <h2>Full Stack Software Engineer</h2>
               <p>General Assembly</p>
