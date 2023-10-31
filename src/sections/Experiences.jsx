@@ -30,7 +30,7 @@ const Experiences = () => {
             </div>
             <div className={styles.item}>
               <span className={styles.date}>Mar 2022 - Jun 2023</span>
-              <h2>Full Stack Software Engineer</h2>
+              <h2>Full Stack Software Engineer Fellow</h2>
               <p>General Assembly</p>
             </div>
             <div className={styles.item}>
